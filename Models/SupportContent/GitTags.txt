@@ -1,0 +1,26 @@
+feat: Serve para novas features que você adicionar
+fix: Serve para você corrigir algo
+docs: Algo relacionado a documentações, README e afins
+style: Estilo, CSS
+refactor: Precisou alterar, melhorar algo
+perf: Algo relacionado a performance
+test: Testes
+chore: Coisas relacionados a build, configs e afins. Exemplo, atualizando a versão do pacote ou instalando novas dependências
+build: Específicos para tarefas de build
+ci: Algo que você mexa na Integração Contínua
+revert: Reverter
+
+From Github:
+bug: Something isn't working
+documentation: Improvements or additions to documentation
+duplicate: This issue or pull request already exists
+enhancement: New feature or request
+good first issue: Good for newcomers
+help wanted: Extra attention is needed
+invalid: This doesn't seem right
+question: Further information is requested
+wontfix: This will not be worked on
+
+Example:
+
+enhancement.refactor.ByJ3di : Deleted dataset - 20250511

@@ -16,13 +16,13 @@ st.set_page_config(
 )
 
 if 'data' not in st.session_state:
-    dfActual = ReturnDf('./Models/DataBase/CasasVendasSaoLuisMA20250305.csv', separator = ';', encoder = 'utf-8')
+    dfActual = ReturnDf('./Models/DataBase/ImoveisVendasSaoLuisMA20250305.csv', separator = ';', encoder = 'utf-8')
     st.session_state['data'] = dfActual
 
 
 st.markdown('## eTLipse - Computação, Engenharia e Responsabilidade Social')
 
-st.sidebar.markdown('##### Desenvolvido pela [eTLipse](https://www.etlipse.com/)')
+
 
 btn = st.button('Acesse nosso site!')
 if btn:
@@ -45,3 +45,6 @@ st.markdown(
     ✓ Sistema que apresenta resumos e informações inferidas de base de dados privadas usando Inteligência Artificial
     </div>'''
     , unsafe_allow_html = True)
+
+# Sidebar
+st.sidebar.markdown('##### Desenvolvido pela [eTLipse](https://www.etlipse.com/)')
