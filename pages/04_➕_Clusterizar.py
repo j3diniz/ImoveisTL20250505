@@ -15,7 +15,15 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Clusterizar Dados - São Luís - MA')
+st.markdown('## Clusterizar Dados')
+st.markdown("### _Disponível_ em :red[breve!] :calendar:")
+
+st.markdown(
+    '''<p style="text-align: justify;">
+    Utiliza Inteligência Artificial para esta tarefa. Permite criar categorias de faixa de valores para os preços. 
+    Exemplo, definifir padrões 'Baixo', 'Médio' e 'Alto' para os imóveis baseado nos preços.
+    </p>'''
+    , unsafe_allow_html = True)
 
 # Sidebar
 st.sidebar.markdown('##### Desenvolvido pela [eTLipse](https://www.etlipse.com/)')

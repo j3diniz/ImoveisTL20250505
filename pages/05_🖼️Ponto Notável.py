@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Limpar Dados',
-    page_icon = '🧹',
+    page_title = 'Ponto Notável',
+    page_icon = '🖼️',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,13 +15,12 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Limpar Dados')
-st.markdown("### _Disponível_ em :red[breve!] :calendar:")
+st.markdown('## Ponto Notável')
 
 st.markdown(
     '''<p style="text-align: justify;">
-    Permite excluir dados com erros ou fora de padrão (outlier). Limitar dados dentro de um determinado intervalo de valores.
-    Excluir dados indesejados. Resumir os dados para uma determinada pesquisa.
+    Permite definir pontos notáveis que podem explicar a valorização ou desvalorização de um imóvel.
+    Por exemplor um shopping, parque, ponto turísitco, praia, etc. Uma coluna nova informa a distância de cada registro para o ponto notável definido.
     </p>'''
     , unsafe_allow_html = True)
 

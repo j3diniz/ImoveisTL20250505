@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Limpar Dados',
-    page_icon = '🧹',
+    page_title = 'Inferir Dados com IA',
+    page_icon = '🪄',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,13 +15,13 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Limpar Dados')
+st.markdown('## Inferência de Dados com Inteligência Artificial')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
     '''<p style="text-align: justify;">
-    Permite excluir dados com erros ou fora de padrão (outlier). Limitar dados dentro de um determinado intervalo de valores.
-    Excluir dados indesejados. Resumir os dados para uma determinada pesquisa.
+    Utiliza Inteligência Artificial para inferir dados de textos, como o do resumo descritivo do imóvel, 
+    onde é possível extrair características do imóvel, como quantidade de quartos, área, etc.
     </p>'''
     , unsafe_allow_html = True)
 

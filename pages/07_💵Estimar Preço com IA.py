@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Gráficos',
-    page_icon = '📈',
+    page_title = 'Estimar Preço com IA',
+    page_icon = '💵',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,7 +15,14 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Gráficos - São Luís - MA')
+st.markdown('## Estimar Preço com Inteligência Artificial')
+st.markdown("### _Disponível_ em :red[breve!] :calendar:")
+
+st.markdown(
+    '''<p style="text-align: justify;">
+    Possibilita estimar o preço de um novo imóvel com Inteligência Artificial, usando variáveis conhecidas.
+    </p>'''
+    , unsafe_allow_html = True)
 
 # Sidebar
 st.sidebar.markdown('##### Desenvolvido pela [eTLipse](https://www.etlipse.com/)')

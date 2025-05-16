@@ -16,7 +16,8 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Dados Imóveis - São Luís - MA')
+st.markdown('## Dados Imóveis')
+st.markdown('## São Luís - MA')
 
 if 'data' not in st.session_state:
     dfActual = ReturnDf('./Models/DataBase/ImoveisVendasSaoLuisMA20250305.csv', separator = ';', encoder = 'utf-8')
